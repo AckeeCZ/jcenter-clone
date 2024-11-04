@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cz.ackee.photochooser</groupId>
+  <artifactId>photo-chooser</artifactId>
+  <version>1.0.9</version>
+  <packaging>aar</packaging>
+  <name>Android Photo Chooser</name>
+  <description>Library for choosing photo from gallery or camera</description>
+  <url>https://github.com/AckeeCZ/photo-chooser</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ackee</id>
+      <name>Ackee</name>
+      <email>info@ackee.cz</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/AckeeCZ/photo-chooser.git</connection>
+    <developerConnection>https://github.com/AckeeCZ/photo-chooser.git</developerConnection>
+    <url>https://github.com/AckeeCZ/photo-chooser</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxandroid</artifactId>
+      <version>2.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.1.12</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.isseiaoki</groupId>
+      <artifactId>simplecropview</artifactId>
+      <version>1.1.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.3.70</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
